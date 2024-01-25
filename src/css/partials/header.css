@@ -37,10 +37,9 @@ header {
   background: transparent;
   height: 100%;
   margin-left: 15px;
+  cursor: pointer;
 }
-.link {
-  text-decoration: none;
-}
+
 .container {
   max-width: 288px;
   margin: 0 auto;
@@ -89,7 +88,7 @@ header {
 }
 .menu-font {
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -118,7 +117,7 @@ header {
     display: flex;
     gap: 24px;
     color: #000;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
