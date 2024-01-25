@@ -7,11 +7,6 @@
   line-height: normal;
 }
 
-.about-section {
-  padding: 0 16px;
-  position: relative;
-}
-
 .about-start {
   align-items: center;
   margin-bottom: 32px;
@@ -57,6 +52,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 16px;
 }
 
 /**tablet**/
@@ -80,10 +76,6 @@
   .about-highlight {
     font-size: 44px;
     font-weight: 700;
-  }
-
-  .about-section {
-    padding: 0 24px;
   }
 
   .line-container {
