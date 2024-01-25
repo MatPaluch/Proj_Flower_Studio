@@ -1,1 +1,2 @@
-import './sass/main.scss';
+import './css/main.css';
+import './js/mobile-menu.js';
