@@ -1,0 +1,131 @@
+.about-highlight {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-section {
+  padding: 0 16px;
+}
+
+.line-container {
+  content: '';
+  height: 1px;
+  background-color: #000;
+  display: block;
+  position: absolute;
+  top: 6%;
+  left: 121px;
+  right: 16px;
+  transform: translateY(-50%);
+}
+
+.about-div {
+  background-image: url('../images/mobile-flowers.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 178px;
+  border-radius: 0px 639.5px 639.5px 0px;
+  max-width: 288px;
+  color: transparent;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url('mobile-flowers@2x.png');
+  }
+}
+
+.about-photo {
+  max-width: 400px;
+  background-color: white;
+}
+
+.about-paragraph {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/**tablet**/
+
+@media screen and (min-width: 768px) {
+  .about-div {
+    background-image: url('../images/tablet-flowers.jpg');
+    background-size: auto;
+    min-width: 344px;
+    min-height: 217px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: url('tablet-flowers@2x.png');
+    }
+  }
+  .about-highlight {
+    font-size: 44px;
+    font-weight: 700;
+  }
+
+  .about-section {
+    padding: 0 24px;
+  }
+
+  .line-container {
+    top: 11%;
+    left: 198px;
+    right: 16px;
+    transform: translateY(-50%);
+  }
+
+  .about-flex {
+    display: flex;
+    gap: 54px;
+    align-items: center;
+  }
+
+  .about-paragraph {
+    min-width: 322px;
+    font-size: 20px;
+  }
+}
+
+/** desktop **/
+
+@media screen and (min-width: 1280px) {
+  .about-div {
+    background-image: url('../images/desktop-flowers.jpg');
+    min-width: 632px;
+    min-height: 344px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: url('desktop-flowers@2x.png');
+    }
+  }
+  .about-flex {
+    gap: 90px;
+  }
+
+  .about-paragraph {
+    min-width: 510px;
+    font-size: 22px;
+  }
+}
