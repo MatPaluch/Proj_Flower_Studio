@@ -24,7 +24,7 @@
 }
 
 .about-div {
-  background-image: url('../images/mobile-flowers.jpg');
+  background-image: url('../../images/mobile-flowers.jpg');
   background-position: left;
   background-repeat: no-repeat;
   background-size: auto;
@@ -39,7 +39,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .box {
-    background-image: url('mobile-flowers@2x.png');
+    background-image: url('../../images/mobile-flowers@2x.jpg');
   }
 }
 
@@ -61,7 +61,7 @@
 
 @media screen and (min-width: 768px) {
   .about-div {
-    background-image: url('../images/tablet-flowers.jpg');
+    background-image: url('../../images/tablet-flowers.jpg');
     background-size: auto;
     min-width: 344px;
     min-height: 217px;
@@ -72,7 +72,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .box {
-      background-image: url('tablet-flowers@2x.png');
+      background-image: url('../../images/tablet-flowers@2x.jpg');
     }
   }
   .about-highlight {
@@ -107,7 +107,7 @@
 
 @media screen and (min-width: 1280px) {
   .about-div {
-    background-image: url('../images/desktop-flowers.jpg');
+    background-image: url('../../images/desktop-flowers.jpg');
     min-width: 632px;
     min-height: 344px;
   }
@@ -117,7 +117,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .box {
-      background-image: url('desktop-flowers@2x.png');
+      background-image: url('../../images/desktop-flowers@2x.jpg');
     }
   }
   .about-flex {
