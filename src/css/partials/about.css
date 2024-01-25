@@ -11,16 +11,17 @@
   padding: 0 16px;
 }
 
+.about-start {
+  align-items: center;
+  margin-bottom: 32px;
+  display: flex;
+}
+
 .line-container {
-  content: '';
-  height: 1px;
-  background-color: #000;
-  display: block;
-  position: absolute;
-  top: 6%;
-  left: 121px;
-  right: 16px;
-  transform: translateY(-50%);
+  height: 2px;
+  background: #000;
+  border: 0;
+  margin-left: 14px;
 }
 
 .about-div {
