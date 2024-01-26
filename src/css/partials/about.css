@@ -75,14 +75,6 @@
   }
   .about-highlight {
     font-size: 44px;
-    font-weight: 700;
-  }
-
-  .line-container {
-    top: 11%;
-    left: 198px;
-    right: 16px;
-    transform: translateY(-50%);
   }
 
   .about-flex {
