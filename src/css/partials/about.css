@@ -29,6 +29,7 @@
   border-radius: 0px 639.5px 639.5px 0px;
   max-width: 288px;
   color: transparent;
+  margin-bottom: 60px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -75,14 +76,6 @@
   }
   .about-highlight {
     font-size: 44px;
-    font-weight: 700;
-  }
-
-  .line-container {
-    top: 11%;
-    left: 198px;
-    right: 16px;
-    transform: translateY(-50%);
   }
 
   .about-flex {
