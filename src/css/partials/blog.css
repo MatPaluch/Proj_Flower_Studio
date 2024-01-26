@@ -1,0 +1,51 @@
+.flow {
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  height: 200px;
+}
+.flower-menu {
+  position: absolute;
+  display: flex;
+  gap: 16px;
+  transform: translateX(0);
+}
+.controls-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+button {
+  background-color: transparent;
+  border: 0;
+}
+.sub-cont {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 60px;
+}
+.p-newsletter {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+.sub-button {
+  display: flex;
+  width: 170px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 38px;
+  background: var(--pink, #e86f54);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
