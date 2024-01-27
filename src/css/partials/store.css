@@ -371,12 +371,44 @@
 
 
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
     .bouquets-types {
         font-size: 36px;
     }
 
     .price-list {
         font-size: 24px;
+    }
+
+    .bouquets-list-1 {
+        background-image: url('../images/bouquet3_tablet_desktop.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 600px;
+        min-height: 542px;
+    }
+
+    .bouquets-list-2 {
+        background-image: url('../images/bouquet1_tablet_desktop.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 600px;
+        min-height: 542px;
+    }
+
+    .bouquets-list-3 {
+        background-image: url('../images/bouquet2_tablet_desktop.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 600px;
+        min-height: 542px;
+    }
+
+    .bouquets-list-4 {
+        background-image: url('../images/bouquet4_tablet_desktop.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 600px;
+        min-height: 542px;
     }
 }
