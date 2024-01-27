@@ -5,6 +5,7 @@
   height: 200px;
 }
 .flower-menu {
+  height: 200px;
   position: absolute;
   display: flex;
   gap: 16px;
@@ -16,10 +17,12 @@
   justify-content: center;
   gap: 25px;
 }
-button {
+
+.clear-button {
   background-color: transparent;
   border: 0;
 }
+
 .sub-cont {
   margin-top: 14px;
   display: flex;
@@ -36,6 +39,7 @@ button {
   line-height: normal;
 }
 .sub-button {
+  border: 0;
   display: flex;
   width: 170px;
   height: 40px;
@@ -48,4 +52,42 @@ button {
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
+}
+.arrows-svg {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .arrows-svg {
+    width: 61px;
+    height: 61px;
+  }
+  .flow {
+    height: 400px;
+  }
+  .flower-menu {
+    height: 400px;
+  }
+  .p-newsletter {
+    font-size: 32px;
+  }
+  .sub-button {
+    width: 280px;
+    height: 64px;
+    padding: 16px 32px;
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .flow {
+    height: 430px;
+  }
+  .flower-menu {
+    height: 430px;
+  }
+  .p-newsletter {
+    font-size: 32px;
+  }
 }

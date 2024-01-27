@@ -5,20 +5,53 @@
   </div>
   <div class="flow">
     <div class="flower-menu">
-      <img alt="flower-one" src="./images/flower-one-mobile.png" />
+      <img
+        alt="flower-one"
+        src="./images/flower-one-mobile.png"
+        srcset="
+          ./images/flower-one-mobile.png   320w,
+          ./images/flower-one-tablet.png   768w,
+          ./images/flower-one-desktop.png 1200w
+        "
+        sizes=" (min-width:1280px) 1200px,
+        (min-width:768px)  768px
+        (min-width:300px)  320px"
+      />
 
-      <img alt="flower-two" src="./images/flower-two-mobile.png" />
+      <img
+        alt="flower-two"
+        src="./images/flower-two-mobile.png"
+        srcset="
+          ./images/flower-two-mobile.png   320w,
+          ./images/flower-two-tablet.png   768w,
+          ./images/flower-two-desktop.png 1200w
+        "
+        sizes=" (min-width:1280px) 1200px,
+        (min-width:768px)  768px
+        (min-width:300px)  320px"
+      />
 
-      <img alt="flower-three" src="./images/flower-three-mobile.png" />
+      <img
+        alt="flower-three"
+        src="./images/flower-three-mobile.png"
+        srcset="
+          ./images/flower-three-mobile.png   320w,
+          ./images/flower-three-tablet.png   768w,
+          ./images/flower-three-desktop.png 1200w
+        "
+        sizes=" (min-width:1280px) 1200px,
+        (min-width:768px)  768px
+        (min-width:300px)  320px"
+      />
     </div>
   </div>
 
   <div class="controls-cont">
-    <button>
-      <svg width="50" height="50"><use href="./images/icons-blog.svg#arrow-left"></use></svg>
+    <button class="clear-button">
+      <svg class="arrows-svg"><use href="./images/icons-blog.svg#arrow-left"></use></svg>
     </button>
-    <button>
-      <svg width="50" height="50"><use href="./images/icons-blog.svg#arrow-right"></use></svg>
+    <button class="clear-button">
+      <svg class="arrows-svg"><use href="./images/icons-blog.svg#arrow-right"></use></svg>
     </button>
   </div>
   <div class="sub-cont">
@@ -26,3 +59,4 @@
     <button class="sub-button">Subscribe</button>
   </div>
 </section>
+<div></div>
