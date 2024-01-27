@@ -291,6 +291,10 @@
         font-weight: 700;
     }
 
+    .third-section {
+        max-width: 768px;
+    }
+
     .img {
         display: none;
     }
@@ -344,6 +348,7 @@
     .bouquets-list-3 {
         background-image: url('../images/bouquet2_tablet_desktop.jpg');
         background-size: auto;
+        background-repeat: no-repeat;
         min-width: 344px;
         min-height: 399px;
     }
@@ -360,6 +365,7 @@
     .bouquets-list-4 {
         background-image: url('../images/bouquet4_tablet_desktop.jpg');
         background-size: auto;
+        background-repeat: no-repeat;
         min-width: 344px;
         min-height: 399px;
     }
