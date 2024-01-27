@@ -13,7 +13,6 @@
 .third-section {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 .modal {
@@ -321,6 +320,7 @@
         background-repeat: no-repeat;
         min-width: 344px;
         min-height: 399px;
+        justify-content: flex-start;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -429,7 +429,7 @@
     }
 
     .description {
-        margin-top: 425px;
+        margin-top: 399px;
     }
 
 
