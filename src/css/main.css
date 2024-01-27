@@ -2,6 +2,10 @@
 
 @import './partials/about.css';
 
+@import './partials/store.css';
+
 @import './partials/delivery.css';
 
 @import './partials/blog.css';
+
+@import './partials/style.css';
