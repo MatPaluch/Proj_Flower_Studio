@@ -1,31 +1,7 @@
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 :root {
     --black: #000;
     --white: #ffffff;
     --third-color-text: #434455;
-}
-
-html, body {
-    width: 100%;
-    min-width: 100%;
-    overflow-x: hidden;
-}
-
-
-section {
-    font-family: 'Montserrat', sans-serif;
-}
-
-button {
-    cursor: pointer;
 }
 
 .is-hidden {
@@ -280,11 +256,3 @@ button {
 .svg-error {
     right: 5px;
 }
-
-@media screen and (min-width: 480px) {}
-
-@media screen and (min-width: 768px) {}
-
-
-
-@media screen and (min-width: 1158px) {}
