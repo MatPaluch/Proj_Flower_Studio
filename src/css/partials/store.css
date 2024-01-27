@@ -299,6 +299,10 @@
         display: none;
     }
 
+    .bouquets {
+        row-gap: 40px;
+    }
+
     .bouquets-types {
         font-size: 32px;
     }
@@ -423,4 +427,11 @@
         min-width: 600px;
         min-height: 542px;
     }
+
+    .description {
+        margin-top: 425px;
+    }
+
+
+
 }
