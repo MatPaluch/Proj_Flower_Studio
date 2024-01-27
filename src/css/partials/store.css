@@ -145,11 +145,26 @@
     flex-direction: column;
 }
 
-.bouquets-list {
+.bouquets-list-1,
+.bouquets-list-2,
+.bouquets-list-3,
+.bouquets-list-4 {
     list-style: none;
     display: inline-grid;
     flex-basis: 50%;
     justify-content: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .box {
+        background-image: url('../images/bouquet1@2x.jpg');
+        background-image: url('../images/bouquet2@2x.jpg');
+        background-image: url('../images/bouquet3@2x.jpg');
+        background-image: url('../images/bouquet4@2x.jpg');
+    }
 }
 
 .modal-title {
@@ -255,4 +270,113 @@
 
 .svg-error {
     right: 5px;
+}
+
+@media screen and (min-width: 480px) {
+
+    .container {
+        max-width: 480px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header-third-section {
+        font-size: 44px;
+        font-weight: 700;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .bouquets-types {
+        font-size: 32px;
+    }
+
+    .price-list {
+        font-size: 24px;
+    }
+
+    .order-btn {
+        font-size: 28px;
+    }
+
+    .bouquets-list-1 {
+        background-image: url('../images/bouquet3_tablet_desktop.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 344px;
+        min-height: 399px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .box {
+            background-image: url('../images/bouquet3@2x.jpg');
+        }
+    }
+
+    .bouquets-list-2 {
+        background-image: url('../images/bouquet1_tablet_desktop.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 344px;
+        min-height: 399px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .box {
+            background-image: url('../images/bouquet1@2x.jpg');
+        }
+    }
+
+    .bouquets-list-3 {
+        background-image: url('../images/bouquet2_tablet_desktop.jpg');
+        background-size: auto;
+        min-width: 344px;
+        min-height: 399px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .box {
+            background-image: url('../images/bouquet2@2x.jpg');
+        }
+    }
+
+    .bouquets-list-4 {
+        background-image: url('../images/bouquet4_tablet_desktop.jpg');
+        background-size: auto;
+        min-width: 344px;
+        min-height: 399px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .box {
+            background-image: url('../images/bouquet4@2x.jpg');
+        }
+    }
+
+}
+
+
+
+@media screen and (min-width: 1158px) {
+    .bouquets-types {
+        font-size: 36px;
+    }
+
+    .price-list {
+        font-size: 24px;
+    }
 }
