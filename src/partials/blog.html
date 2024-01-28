@@ -3,47 +3,58 @@
     <h2 class="h-delivery">BLOG</h2>
     <hr class="hr-delivery" width="100%" />
   </div>
-  <div class="flow">
-    <div class="flower-menu">
-      <img
-        alt="flower-one"
-        src="./images/flower-one-mobile.png"
-        srcset="
-          ./images/flower-one-mobile.png   320w,
-          ./images/flower-one-tablet.png   768w,
-          ./images/flower-one-desktop.png 1200w
-        "
-        sizes=" (min-width:1280px) 1200px,
-        (min-width:768px)  768px
-        (min-width:300px)  320px"
+
+  <div class="flower-menu">
+    <picture>
+      <source
+        srcset="./images/flower-one-mobile.png, ./images/flower-one-mobile@2x.png"
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="./images/flower-one-tablet.png, ./images/flower-one-tablet@2x.png"
+        media="(min-width:768px) and (max-width: 1280px)"
+      />
+      <source
+        srcset="./images/flower-one-desktop.png, ./images/flower-one-desktop@2x.png"
+        media="(min-width: 1281px)"
       />
 
-      <img
-        alt="flower-two"
-        src="./images/flower-two-mobile.png"
-        srcset="
-          ./images/flower-two-mobile.png   320w,
-          ./images/flower-two-tablet.png   768w,
-          ./images/flower-two-desktop.png 1200w
-        "
-        sizes=" (min-width:1280px) 1200px,
-        (min-width:768px)  768px
-        (min-width:300px)  320px"
+      <img src="./images/flower-one-mobile.png " alt="flower-one" />
+    </picture>
+
+    <picture>
+      <source
+        srcset="./images/flower-two-mobile.png, ./images/flower-two-mobile@2x.png"
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="./images/flower-two-tablet.png, ./images/flower-two-tablet@2x.png"
+        media="(min-width:768px) and (max-width: 1280px)"
+      />
+      <source
+        srcset="./images/flower-two-desktop.png, ./images/flower-two-desktop@2x.png"
+        media="(min-width: 1281px)"
       />
 
-      <img
-        alt="flower-three"
-        src="./images/flower-three-mobile.png"
-        srcset="
-          ./images/flower-three-mobile.png   320w,
-          ./images/flower-three-tablet.png   768w,
-          ./images/flower-three-desktop.png 1200w
-        "
-        sizes=" (min-width:1280px) 1200px,
-        (min-width:768px)  768px
-        (min-width:300px)  320px"
+      <img src="./images/flower-two-mobile.png " alt="flower-two" />
+    </picture>
+
+    <picture>
+      <source
+        srcset="./images/flower-three-mobile.png, ./images/flower-three-mobile@2x.png"
+        media="(max-width: 767px)"
       />
-    </div>
+      <source
+        srcset="./images/flower-three-tablet.png, ./images/flower-three-tablet@2x.png"
+        media="(min-width:768px) and (max-width: 1280px)"
+      />
+      <source
+        srcset="./images/flower-three-desktop.png, ./images/flower-three-desktop@2x.png"
+        media="(min-width: 1281px)"
+      />
+
+      <img src="./images/flower-three-mobile.png " alt="flower-three" />
+    </picture>
   </div>
 
   <div class="controls-cont">
