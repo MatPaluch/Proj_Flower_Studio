@@ -390,6 +390,61 @@
         margin-top: 399px;
     }
 
+    .order-btn {
+        margin: 60px auto 60px;
+    }
+
+    .modal {
+        max-width: 480px;
+        height: 511px;
+        width: 100%;
+        padding: 28px 16px 305px 32px;
+    }
+
+    .modal-title {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
+    .modal-header {
+        font-size: 16px;
+        width: 416px;
+        margin-top: 24px;
+    }
+
+    .modal-label {
+        font-size: 14px;
+    }
+
+    .form-input {
+        font-size: 14px;
+    }
+
+    .form-btn {
+        font-size: 18px;
+        width: 416px;
+        height: 50px;
+    }
+
+    .form {
+        max-width: 416px;
+    }
+
+    .form-element,
+    .form-element-email {
+        margin-top: 10px;
+    }
+
+    .form-btn {
+        padding: 14px 0px;
+        margin: 26px 0px 4% 0px;
+    }
+
+    .form-input, .form-input-email {
+        width: 416px;
+        height: 49px;
+    }
+
 }
 
 
