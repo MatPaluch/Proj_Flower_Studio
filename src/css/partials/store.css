@@ -279,7 +279,7 @@
 
 @media screen and (min-width: 480px) {
 
-    .container {
+    .third-section {
         max-width: 480px;
     }
 }
@@ -491,15 +491,11 @@
     }
 
     .description {
-        margin-top: 399px;
+        margin-top: 558px;
     }
 
     .img {
-        display: block;
         max-width: 100%;
         height: auto;
     }
-
-
-
 }
