@@ -78,14 +78,16 @@
                 <div class="modal-form">
                     <div class="form-element">
                         <label for="user-name" class="modal-label">Name</label>
-                        <input type="text" name="user-name" id="user-name" class="form-input" placeholder="Your name"
-                            required pattern="[A-Za-z0-9]+" />
-                        <svg class="svg-correct" width="16" height="16">
-                            <use href="./images/icons_store.svg#icon-correct"></use>
-                        </svg>
-                        <svg class="svg-error" width="16" height="16">
-                            <use href="./images/icons_store.svg#icon-error"></use>
-                        </svg>
+                        <input type="text" name="user-name" id="user-name" class="form-input" placeholder="Your name" required
+                            pattern="[A-Za-z0-9]+" />
+                        <div class="control_input">
+                            <svg class="svg-correct" role="presentation" width="20" height="20">
+                                <use href="./images/icons_store.svg#icon-correct"></use>
+                            </svg>
+                            <svg class="svg-error" role="presentation" width="20" height="20">
+                                <use href="./images/icons_store.svg#icon-error"></use>
+                            </svg>
+                        </div>
                     </div>
                     <div class="form-element-email">
                         <label for="email" class="modal-label">Email</label>
