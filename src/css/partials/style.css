@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul,
@@ -11,26 +11,27 @@ ol {
 }
 
 section {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .container {
   max-width: 288px;
   margin: 0 auto;
+  min-width: 288px;
 }
 
 @media screen and (min-width: 768px) {
-.container {
+  .container {
     max-width: 720px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-.container {
+  .container {
     max-width: 1232px;
   }
 }
