@@ -27,17 +27,20 @@
   </ul>
 </section>
 <div class="img-container">
-  <img
-    alt="delivery-img"
-    src="./images/image_delivery_mobile.png"
-    srcset="
-      ./images/image_delivery_mobile.png   320w,
-      ./images/image_delivery_tablet.png   768w,
-      ./images/image_delivery_desktop.png 1200w
-    "
-    sizes=" (min-width:1280px) 1200px,
-  (min-width:768px)  768px
-  (min-width:300px)  320px"
-    class="delivery-img"
-  />
+  <picture>
+    <source
+      srcset="./images/image_delivery_mobile.png, ./images/image_delivery_mobile@x2.png"
+      media="(max-width: 767px)"
+    />
+    <source
+      srcset="./images/image_delivery_tablet.png, ./images/image_delivery_tablet@x2.png"
+      media="(min-width:768px) and (max-width: 1280px)"
+    />
+    <source
+      srcset="./images/image_delivery_desktop.png, ./images/image_delivery_desktop@x2.png"
+      media="(min-width: 1281px)"
+    />
+
+    <img src="./images/image_delivery_mobile.png" alt="delivery-retina" class="picture-delivery" />
+  </picture>
 </div>
