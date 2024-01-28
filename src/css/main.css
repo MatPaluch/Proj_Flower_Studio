@@ -1,7 +1,11 @@
-@import './partials/header.css';
+@import "./partials/header.css";
 
-@import './partials/about.css';
+@import "./partials/about.css";
 
-@import './partials/store.css';
+@import "./partials/store.css";
 
-@import './partials/delivery.css';
+@import "./partials/delivery.css";
+
+@import "./partials/style.css";
+
+@import "./partials/hero.css";
