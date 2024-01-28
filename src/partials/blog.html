@@ -56,7 +56,36 @@
   </div>
   <div class="sub-cont">
     <p class="p-newsletter">Follow to our newsletter</p>
-    <button class="sub-button">Subscribe</button>
+    <button class="sub-button" data-modal-open-sub>Subscribe</button>
   </div>
 </section>
-<div></div>
+<div class="sub-modal is-hidden" data-modal-sub>
+  <div class="sub-box">
+    <button class="close-subscribe-button" data-modal-close-sub>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" fill="none" class="svg-close-but">
+        <path
+          d="M15 3L3 15M15 15L3 3L15 15Z"
+          stroke="black"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg>
+    </button>
+    <div class="sub-flower-bg"></div>
+    <div class="follow">
+      <h2 class="title-sub">Follow to our newsletter</h2>
+      <div class="sub-container">
+        <p class="desc-sub">
+          Be the first to get exclusive offers and the latest news on our product directly in your
+          box.
+        </p>
+        <form class="sub-form">
+          <label class="sub-label">
+            <input type="email" name="email" placeholder="Your email" class="sub-input" required />
+            <span class="label-text">Email</span></label
+          ><button type="submit" class="subscribe-button">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
