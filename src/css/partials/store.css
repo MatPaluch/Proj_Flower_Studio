@@ -263,17 +263,38 @@
     color: #3CBC81;
 }
 
-.svg-correct, .svg-error {
-    position: absolute;
-    right: 16px;
-    top: 65%;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.control_input:is(.svg-correct .svg-error) {
+    display: none;
+}
+
+.svg-correct {
+    display: none;
 }
 
 .svg-error {
-    right: 5px;
+    display: none;
 }
+
+.form-element:has(:focus:invalid) .svg-error,
+.form-element:has(:focus:valid) .svg-correct {
+    display: unset
+}
+
+.form-element:has(:focus-visible:invalid) .control_input {
+    fill: #E74A3B;
+}
+
+.form-element:has(:focus-visible:valid) .control_input {
+    fill: #3CBC81;
+}
+
+.svg-correct, .svg-error {
+    position: absolute;
+    right: 16px;
+    top: 62%;
+    transform: translateY(-50%);
+}
+
 
 @media screen and (min-width: 480px) {
 
