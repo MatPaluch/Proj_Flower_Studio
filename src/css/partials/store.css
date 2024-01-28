@@ -315,7 +315,7 @@
     }
 
     .bouquets-list-1 {
-        background-image: url('../../images/bouquet3_tablet_desktop.jpg');
+        background-image: url('../../images/bouquet3_tablet.jpg');
         background-size: auto;
         background-repeat: no-repeat;
         min-width: 344px;
@@ -333,7 +333,7 @@
     }
 
     .bouquets-list-2 {
-        background-image: url('../../images/bouquet1_tablet_desktop.jpg');
+        background-image: url('../../images/bouquet1_tablet.jpg');
         background-size: auto;
         background-repeat: no-repeat;
         min-width: 344px;
@@ -351,7 +351,7 @@
     }
 
     .bouquets-list-3 {
-        background-image: url('../../images/bouquet2_tablet_desktop.jpg');
+        background-image: url('../../images/bouquet2_tablet.jpg');
         background-size: auto;
         background-repeat: no-repeat;
         min-width: 344px;
@@ -369,7 +369,7 @@
     }
 
     .bouquets-list-4 {
-        background-image: url('../../images/bouquet4_tablet_desktop.jpg');
+        background-image: url('../../images/bouquet4_tablet.jpg');
         background-size: auto;
         background-repeat: no-repeat;
         min-width: 344px;
@@ -459,7 +459,7 @@
     }
 
     .bouquets-list-1 {
-        background-image: url('../../images/bouquet3_tablet_desktop.jpg');
+        background-image: url('../../images/bouquet3_desktop.jpg');
         background-size: auto;
         background-repeat: no-repeat;
         min-width: 600px;
@@ -467,7 +467,7 @@
     }
 
     .bouquets-list-2 {
-        background-image: url('../../images/bouquet1_tablet_desktop.jpg');
+        background-image: url('../../images/bouquet1_desktop.jpg');
         background-size: auto;
         background-repeat: no-repeat;
         min-width: 600px;
@@ -475,7 +475,7 @@
     }
 
     .bouquets-list-3 {
-        background-image: url('../../images/bouquet2_tablet_desktop.jpg');
+        background-image: url('../../images/bouquet2_desktop.jpg');
         background-size: auto;
         background-repeat: no-repeat;
         min-width: 600px;
@@ -483,7 +483,7 @@
     }
 
     .bouquets-list-4 {
-        background-image: url('../../images/bouquet4_tablet_desktop.jpg');
+        background-image: url('../../images/bouquet4_desktop.jpg');
         background-size: auto;
         background-repeat: no-repeat;
         min-width: 600px;
@@ -492,6 +492,12 @@
 
     .description {
         margin-top: 399px;
+    }
+
+    .img {
+        display: block;
+        max-width: 100%;
+        height: auto;
     }
 
 
