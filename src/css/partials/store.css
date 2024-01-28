@@ -244,24 +244,23 @@
     box-shadow: 0px 4px 16px 0px rgba(250, 111, 84, 0.20);
 }
 
-.form-input:invalid {
-    border-color: #E74A3B;
-
-}
-
-.form-input:invalid .modal-label {
-    color: #E25B41;
-}
-
 .form-input {
     border-color: rgba(17, 17, 17, 0.70);
 }
 
-.form-input:required:focus:valid {
+.form-input:not(:placeholder-shown):required:valid {
     border-color: #3CBC81;
 }
 
-.form-element:focus-within label {
+.form-input:not(:placeholder-shown):required:invalid {
+    border-color: #E74A3B;
+}
+
+.form-element:has(:focus:invalid) {
+    color: #E74A3B;
+}
+
+.form-element:has(:focus:valid) {
     color: #3CBC81;
 }
 
@@ -416,7 +415,7 @@
         font-size: 14px;
     }
 
-    .form-input {
+    .form-input, .form-element-email {
         font-size: 14px;
     }
 
