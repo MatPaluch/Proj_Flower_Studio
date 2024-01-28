@@ -10,6 +10,11 @@
     pointer-events: none;
 }
 
+.third-section {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .modal {
     width: 80%;
     position: absolute;
@@ -145,11 +150,26 @@
     flex-direction: column;
 }
 
-.bouquets-list {
+.bouquets-list-1,
+.bouquets-list-2,
+.bouquets-list-3,
+.bouquets-list-4 {
     list-style: none;
     display: inline-grid;
     flex-basis: 50%;
     justify-content: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .box {
+        background-image: url('../../images/bouquet1@2x.jpg');
+        background-image: url('../../images/bouquet2@2x.jpg');
+        background-image: url('../../images/bouquet3@2x.jpg');
+        background-image: url('../../images/bouquet4@2x.jpg');
+    }
 }
 
 .modal-title {
@@ -255,4 +275,227 @@
 
 .svg-error {
     right: 5px;
+}
+
+@media screen and (min-width: 480px) {
+
+    .third-section {
+        max-width: 480px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header-third-section {
+        font-size: 44px;
+        font-weight: 700;
+    }
+
+    .third-section {
+        max-width: 768px;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .bouquets {
+        row-gap: 40px;
+    }
+
+    .bouquets-types {
+        font-size: 32px;
+    }
+
+    .price-list {
+        font-size: 24px;
+    }
+
+    .order-btn {
+        font-size: 28px;
+    }
+
+    .bouquets-list-1 {
+        background-image: url('../../images/bouquet3_tablet.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 344px;
+        min-height: 399px;
+        justify-content: flex-start;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .box {
+            background-image: url('../../images/bouquet3@2x.jpg');
+        }
+    }
+
+    .bouquets-list-2 {
+        background-image: url('../../images/bouquet1_tablet.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 344px;
+        min-height: 399px;
+        justify-content: flex-start;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .box {
+            background-image: url('../../images/bouquet1@2x.jpg');
+        }
+    }
+
+    .bouquets-list-3 {
+        background-image: url('../../images/bouquet2_tablet.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 344px;
+        min-height: 399px;
+        justify-content: flex-start;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .box {
+            background-image: url('../../images/bouquet2@2x.jpg');
+        }
+    }
+
+    .bouquets-list-4 {
+        background-image: url('../../images/bouquet4_tablet.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 344px;
+        min-height: 399px;
+        justify-content: flex-start;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .box {
+            background-image: url('../../images/bouquet4@2x.jpg');
+        }
+    }
+
+    .description {
+        margin-top: 399px;
+    }
+
+    .order-btn {
+        margin: 60px auto 60px;
+    }
+
+    .modal {
+        max-width: 480px;
+        height: 511px;
+        width: 100%;
+        padding: 28px 16px 305px 32px;
+    }
+
+    .modal-title {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
+    .modal-header {
+        font-size: 16px;
+        width: 416px;
+        margin-top: 24px;
+    }
+
+    .modal-label {
+        font-size: 14px;
+    }
+
+    .form-input {
+        font-size: 14px;
+    }
+
+    .form-btn {
+        font-size: 18px;
+        width: 416px;
+        height: 50px;
+    }
+
+    .form {
+        max-width: 416px;
+    }
+
+    .form-element,
+    .form-element-email {
+        margin-top: 10px;
+    }
+
+    .form-btn {
+        padding: 14px 0px;
+        margin: 26px 0px 4% 0px;
+    }
+
+    .form-input, .form-input-email {
+        width: 416px;
+        height: 49px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .bouquets-types {
+        font-size: 36px;
+    }
+
+    .price-list {
+        font-size: 24px;
+    }
+
+    .bouquets-list-1 {
+        background-image: url('../../images/bouquet3_desktop.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 600px;
+        min-height: 542px;
+    }
+
+    .bouquets-list-2 {
+        background-image: url('../../images/bouquet1_desktop.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 600px;
+        min-height: 542px;
+    }
+
+    .bouquets-list-3 {
+        background-image: url('../../images/bouquet2_desktop.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 600px;
+        min-height: 542px;
+    }
+
+    .bouquets-list-4 {
+        background-image: url('../../images/bouquet4_desktop.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 600px;
+        min-height: 542px;
+    }
+
+    .description {
+        margin-top: 558px;
+    }
+
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
 }

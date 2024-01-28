@@ -1,0 +1,91 @@
+<section class="container" id="blog">
+  <div class="header-second-degree">
+    <h2 class="h-delivery">BLOG</h2>
+    <hr class="hr-delivery" width="100%" />
+  </div>
+  <div class="flow">
+    <div class="flower-menu">
+      <img
+        alt="flower-one"
+        src="./images/flower-one-mobile.png"
+        srcset="
+          ./images/flower-one-mobile.png   320w,
+          ./images/flower-one-tablet.png   768w,
+          ./images/flower-one-desktop.png 1200w
+        "
+        sizes=" (min-width:1280px) 1200px,
+        (min-width:768px)  768px
+        (min-width:300px)  320px"
+      />
+
+      <img
+        alt="flower-two"
+        src="./images/flower-two-mobile.png"
+        srcset="
+          ./images/flower-two-mobile.png   320w,
+          ./images/flower-two-tablet.png   768w,
+          ./images/flower-two-desktop.png 1200w
+        "
+        sizes=" (min-width:1280px) 1200px,
+        (min-width:768px)  768px
+        (min-width:300px)  320px"
+      />
+
+      <img
+        alt="flower-three"
+        src="./images/flower-three-mobile.png"
+        srcset="
+          ./images/flower-three-mobile.png   320w,
+          ./images/flower-three-tablet.png   768w,
+          ./images/flower-three-desktop.png 1200w
+        "
+        sizes=" (min-width:1280px) 1200px,
+        (min-width:768px)  768px
+        (min-width:300px)  320px"
+      />
+    </div>
+  </div>
+
+  <div class="controls-cont">
+    <button class="clear-button">
+      <svg class="arrows-svg"><use href="./images/icons-blog.svg#arrow-left"></use></svg>
+    </button>
+    <button class="clear-button">
+      <svg class="arrows-svg"><use href="./images/icons-blog.svg#arrow-right"></use></svg>
+    </button>
+  </div>
+  <div class="sub-cont">
+    <p class="p-newsletter">Follow to our newsletter</p>
+    <button class="sub-button" data-modal-open-sub>Subscribe</button>
+  </div>
+</section>
+<div class="sub-modal is-hidden" data-modal-sub>
+  <div class="sub-box">
+    <button class="close-subscribe-button" data-modal-close-sub>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" fill="none" class="svg-close-but">
+        <path
+          d="M15 3L3 15M15 15L3 3L15 15Z"
+          stroke="black"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg>
+    </button>
+    <div class="sub-flower-bg"></div>
+    <div class="follow">
+      <h2 class="title-sub">Follow to our newsletter</h2>
+      <div class="sub-container">
+        <p class="desc-sub">
+          Be the first to get exclusive offers and the latest news on our product directly in your
+          box.
+        </p>
+        <form class="sub-form">
+          <label class="sub-label">
+            <input type="email" name="email" placeholder="Your email" class="sub-input" required />
+            <span class="label-text">Email</span></label
+          ><button type="submit" class="subscribe-button">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
