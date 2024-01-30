@@ -1,3 +1,64 @@
 .header-first-section {
   font-size: 52px;
 }
+.hero-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 11px;
+  margin-right: 145px;
+}
+.flower-studio {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.now-shop-button {
+  border: 0cap;
+  background-color: ffffff;
+}
+.title {
+  position: absolute;
+  width: 288px;
+  height: 63px;
+  top: 230px;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero-section {
+  width: 288px;
+  height: 354px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 51px;
+}
+.is-hidden {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.hero_list {
+  list-style: none;
+}
+
+/**tablet**/
+@media screen and (min-width: 768px) {
+  .image-homepage {
+  }
+}
+
+/** desktop **/
+
+@media screen and (min-width: 1280px) {
+}

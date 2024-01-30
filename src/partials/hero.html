@@ -1,26 +1,41 @@
-<section class="first-section">
-    <div class="header">
-        <h1 class="header-first-section">ANEMONE</h1>
-    </div>
-    <div class="subheader">
-        <h2 class="subtitle">flower studio</h2>
-        <img src="./images/flower_first_section_mobile.jpg" srcset="./images/flower_first_section_mobile@2x.jpg"
-            alt="main flower" width="145" height="274">         
-    </div>
-    <div>
-        <button type="open-button" data-modal-open>
-            <a href="" class="btn-link">
-                <svg class="" width="64" height="76">
-                    <use href="./images/icons_hero.svg#icon-btn-2"></use>
-                </svg>
-            </a>
-        </button>
-    </div>
-    <div class="backdrop is-hidden" data-modal>
+
+
+    <section class="hero-section"> 
+
+        <ul class="list hero-list">
+   
+    <li class="flower-studio"><h5>flower<br> studio</h5></li>
+    <li><img
+      src="../hero/images/image_homepage_mobile_x1.jpeg"
+      srcset="
+        ../hero/images/image_homepage_mobile_x1.jpeg 1x,
+        ../hero/images/image_homepage_mobile_x2.jpeg 2x
+      "
+      class="image-homepage"
+      width="145px"
+      height="274px"
+      alt="big purple flower"
+    />
+</li>
+    <li><button type="button" class="now-shop-button" data-modal-open>
+      <svg width="64px" height="76px">
+        <use href="../hero/images/btn_icons.svg#icon_btn_nowshop_mobile"></use>
+      </svg>
+    </button>
+    <div class="modal is-hidden" data-modal>
+      <button data-modal-close>X</button>
+   </div>
+</li> 
+</ul></div>
+<div class="title"><h1>ANEMONĒ</h1></div>
+</section>
+
+    <!--MODAL-->
+     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="close-btn" data-modal-close>
+            <button type="button" class="close-btn" data-modal-close>
                 <svg class="x-button" width="16" height="16">
-                    <use href="./images/icons_hero.svg#close_button">
+                    <use href="../images/icons.svg#close_button">
                     </use>
                 </svg>
             </button>
