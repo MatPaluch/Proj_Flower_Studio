@@ -1,0 +1,92 @@
+.hero-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+  margin-bottom: 136px;
+}
+.flower-studio {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 14px;
+  font-weight: normal;
+}
+
+.now-shop-button {
+  border: 0cap;
+  background-color: white;
+  margin-left: 8px;
+}
+.title {
+  top: 361px;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 288px;
+  height: 63px;
+  position: absolute;
+}
+
+.is-hidden {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+/**tablet**/
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 120px;
+    margin-top: 393px;
+    margin-left: 31px;
+    width: 658px;
+    height: 164px;
+  }
+  .flower-studio {
+    margin-right: 40px;
+    font-size: 24px;
+  }
+  .hero-list {
+    margin-top: 55px;
+    margin-bottom: 194px;
+  }
+  .now-shop-button {
+    margin-left: 20px;
+  }
+  .svg-button {
+    width: 145px;
+    height: 150px;
+  }
+}
+
+/** desktop **/
+
+@media screen and (min-width: 1280px) {
+  .title {
+    margin-top: 350px;
+    font-size: 160px;
+    width: 877px;
+    height: 195px;
+    margin-left: 178px;
+  }
+  .flower-studio {
+    margin-right: 110px;
+    font-size: 32px;
+  }
+  .now-shop-button {
+    margin-left: 110px;
+  }
+  .svg-button {
+    width: 166px;
+    height: 166px;
+  }
+}

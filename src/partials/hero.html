@@ -1,0 +1,54 @@
+<section class="container">
+  <div class="center">
+    <ul class="list hero-list">
+      <li class="flower-studio">
+        <p>
+          flower<br />
+          studio
+        </p>
+      </li>
+      <li>
+        <picture class="flower-hero">
+          <source
+            srcset="
+              ./images/flower_first_section_mobile.jpg    1x,
+              ./images/flower_first_section_mobile@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="
+              ./images/flower_first_section_tablet.jpg    1x,
+              ./images/flower_first_section_tablet@2x.jpg 2x
+            "
+            media="(min-width:768px) and (max-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./images/flower_first_section_tablet.jpg    1x,
+              ./images/flower_first_section_tablet@2x.jpg 2x
+            "
+            media="(min-width: 1281px)"
+          />
+
+          <img
+            src="./images/flower_first_section_mobile@2x.jpg"
+            alt="flower1-retina"
+            class="flower first section"
+          />
+        </picture>
+      </li>
+      <li>
+        <button type="button" class="now-shop-button" data-modal-open>
+          <svg class="svg-button" width="64px" height="76px">
+            <use href="./images/icons_hero.svg#icon-btn"></use>
+          </svg>
+        </button>
+        <div class="modal is-hidden" data-modal>
+          <button data-modal-close>X</button>
+        </div>
+      </li>
+    </ul>
+    <div class="title"><p>ANEMONĒ</p></div>
+  </div>
+</section>
