@@ -13,8 +13,6 @@
   refs.openModalBtn.addEventListener("click", toggleModal);
   refs.closeModalBtn.addEventListener("click", toggleModal);
 
-  // drugie okno modalne
-
   const refs2 = {
     openModal2Btn: document.querySelector("[data-modal-open-2]"),
     closeModal2Btn: document.querySelector("[data-modal-close-2]"),
