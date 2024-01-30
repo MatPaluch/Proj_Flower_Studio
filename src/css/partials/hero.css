@@ -32,6 +32,7 @@
   font-weight: 400;
   line-height: normal;
   width: 288px;
+  height: 63px;
   position: absolute;
 }
 
@@ -45,11 +46,21 @@
 @media screen and (min-width: 768px) {
   .title {
     font-size: 120px;
-    margin-top: 639px;
+    margin-top: 393px;
+    margin-left: 31px;
+    width: 658px;
+    height: 164px;
+  }
+  .flower-studio {
+    margin-right: 40px;
+    font-size: 24px;
   }
   .hero-list {
     margin-top: 55px;
     margin-bottom: 194px;
+  }
+  .now-shop-button {
+    margin-left: 20px;
   }
 }
 
@@ -57,6 +68,17 @@
 
 @media screen and (min-width: 1280px) {
   .title {
+    margin-top: 350px;
     font-size: 160px;
+    width: 877px;
+    height: 195px;
+    margin-left: 178px;
+  }
+  .flower-studio {
+    margin-right: 110px;
+    font-size: 32px;
+  }
+  .now-shop-button {
+    margin-left: 110px;
   }
 }
