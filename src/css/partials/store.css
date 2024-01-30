@@ -226,7 +226,7 @@
     margin-top: 14px;
 }
 
-.form-btn {
+.form-btn, .form-2-btn {
     margin: 12px 0px 28px 0px;
     color: var(--white);
     border: none;
