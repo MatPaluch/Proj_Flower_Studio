@@ -430,6 +430,9 @@
         height: 511px;
         width: 100%;
         padding: 28px 16px 305px 32px;
+        justify-content: center;
+        display: flex;
+        flex-flow: wrap;
     }
 
     .modal-title, .modal-2-title {
@@ -482,6 +485,24 @@
     .form-input, .form-input-email {
         width: 416px;
         height: 49px;
+    }
+
+    .flowers {
+        background-image: url('/src/images/Plants.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 266px;
+        min-height: 202px;
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .box {
+            background-image: url('/src/images/Plants@2x.jpg');
+        }
     }
 
 }
