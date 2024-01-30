@@ -45,6 +45,11 @@
 @media screen and (min-width: 768px) {
   .title {
     font-size: 120px;
+    margin-top: 639px;
+  }
+  .hero-list {
+    margin-top: 55px;
+    margin-bottom: 194px;
   }
 }
 
