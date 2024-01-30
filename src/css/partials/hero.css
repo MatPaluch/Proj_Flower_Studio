@@ -3,8 +3,6 @@
   list-style: none;
   justify-content: center;
   align-items: center;
-  margin-left: 11px;
-  margin-right: 145px;
 }
 .flower-studio {
   color: #000;
@@ -14,9 +12,9 @@
   font-weight: 400;
   line-height: normal;
   margin-right: 14px;
+  font-weight: normal;
 }
-.not-bold {
-}
+
 .now-shop-button {
   border: 0cap;
   background-color: white;
