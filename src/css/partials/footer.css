@@ -30,6 +30,9 @@
     background: #000000;
     color: #ffffff;
   }
+  .footer-icon {
+    color: #ffffff;
+  }
   .footer-title {
     font-family: Inter;
     font-size: 18px;
@@ -50,6 +53,7 @@
   }
   .icon-footer {
     fill: none;
+    color: #ffffff;
   }
   .footer-container {
     max-width: 149px;
@@ -100,6 +104,7 @@
   }
   .icon-footer {
     fill: none;
+    color: #ffffff;
   }
   .footer-container {
     max-width: 149px;
@@ -149,6 +154,7 @@
   }
   .icon-footer {
     fill: none;
+    color: #ffffff;
   }
   .footer-container {
     max-width: 149px;
