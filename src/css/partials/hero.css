@@ -3,6 +3,8 @@
   list-style: none;
   justify-content: center;
   align-items: center;
+  margin-top: 44px;
+  margin-bottom: 136px;
 }
 .flower-studio {
   color: #000;
@@ -21,10 +23,7 @@
   margin-left: 8px;
 }
 .title {
-  position: absolute;
-  width: 288px;
-  height: 63px;
-  top: 230px;
+  top: 361px;
   color: #000;
   text-align: center;
   font-family: Montserrat;
@@ -32,6 +31,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 288px;
+  position: absolute;
 }
 
 .is-hidden {
@@ -40,15 +41,17 @@
   opacity: 0;
 }
 
-.hero_list {
-  list-style: none;
-}
-
 /**tablet**/
 @media screen and (min-width: 768px) {
+  .title {
+    font-size: 120px;
+  }
 }
 
 /** desktop **/
 
 @media screen and (min-width: 1280px) {
+  .title {
+    font-size: 160px;
+  }
 }
