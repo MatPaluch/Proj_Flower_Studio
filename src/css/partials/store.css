@@ -41,6 +41,10 @@
     text-align: center;
 }
 
+.flowers {
+    margin: 16px 26px 16px 26px;
+}
+
 .open-btn {
     border-radius: 38px;
     background: #E86F54;
