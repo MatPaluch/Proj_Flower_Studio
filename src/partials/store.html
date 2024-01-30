@@ -1,4 +1,4 @@
-<section class="container third-section">
+<section class="container third-section" id="store">
     <div class="header">
         <h2 class="header-third-section"><span>STORE</span></h2>
         <hr class="line" />
@@ -74,7 +74,7 @@
                 you
                 make an order please fill in your
                 contact details. We will call you back.</p>
-            <form class="form">
+            <form class="form" data-modal-form>
                 <div class="modal-form">
                     <div class="form-element">
                         <label for="user-name" class="modal-label">Name</label>
@@ -94,7 +94,26 @@
                         <input type="email" id="user-email" class="form-input-email" name="user-email" required
                             placeholder="Your email"></input>
                     </div>
-                    <button type="submit" class="form-btn">Send</button>
+                    <button type="submit" class="form-btn" required data-modal-open-2>Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal-2>
+        <div class="modal-2">
+            <button type="button" class="close-btn" data-modal-close-2>
+                <svg class="x-button" width="16" height="16">
+                    <use href="./images/icons_store.svg#close_button">
+                    </use>
+                </svg>
+            </button>
+            <img src="./images/flowers_thank_you_mobile.jpg" class="flowers"
+                srcset="./images/flowers_thank_you_@2x_mobile.jpg" alt="plants" width="188" height="142">
+            <h2 class="modal-2-title">Thank you!</h2>
+            <p class="modal-2-header">We have received your contact details and will reach you soon.</p>
+            <form class="form-2">
+                <div class="modal-2-form">
+                    <button type="submit" class="form-2-btn" data-modal-close-2>Continue</button>
                 </div>
             </form>
         </div>

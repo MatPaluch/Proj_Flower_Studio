@@ -15,7 +15,7 @@
     margin: 0 auto;
 }
 
-.modal {
+.modal, .modal-2 {
     width: 80%;
     position: absolute;
     top: 50%;
@@ -29,12 +29,20 @@
     padding: 28px 16px 305px 16px;
 }
 
-.modal-header {
+.modal-header, .modal-2-header {
     color: #5C5C5C;
     font-size: 12px;
     font-weight: 500;
     margin-top: 16px;
     width: 240px;
+}
+
+.modal-2-header, .modal-2-title {
+    text-align: center;
+}
+
+.flowers {
+    margin: 16px 26px 16px 26px;
 }
 
 .open-btn {
@@ -172,7 +180,7 @@
     }
 }
 
-.modal-title {
+.modal-title, .modal-2-title {
     font-size: 20px;
     font-weight: 600;
 }
@@ -222,7 +230,7 @@
     margin-top: 14px;
 }
 
-.form-btn {
+.form-btn, .form-2-btn {
     margin: 12px 0px 28px 0px;
     color: var(--white);
     border: none;
@@ -232,6 +240,10 @@
     padding: 10px 0px;
     justify-content: center;
     align-items: center;
+}
+
+.form-2-btn {
+    margin: 18px 0px 28px 0px;
 }
 
 .order-btn:is(:hover) {
@@ -413,36 +425,47 @@
         margin: 60px auto 60px;
     }
 
-    .modal {
+    .modal, .modal-2 {
         max-width: 480px;
         height: 511px;
         width: 100%;
         padding: 28px 16px 305px 32px;
+        justify-content: center;
+        display: flex;
+        flex-flow: wrap;
     }
 
-    .modal-title {
+    .modal-title, .modal-2-title {
         font-size: 32px;
         margin-top: 20px;
     }
 
-    .modal-header {
+    .modal-header, .modal-2-header {
         font-size: 16px;
         width: 416px;
         margin-top: 24px;
+    }
+
+    .modal-2-header {
+        margin-top: 16px;
     }
 
     .modal-label {
         font-size: 14px;
     }
 
-    .form-input, .form-element-email {
+    .form-input, .form-element-email, .form-input-email {
         font-size: 14px;
     }
 
-    .form-btn {
+    .form-btn, .form-2-btn {
         font-size: 18px;
         width: 416px;
         height: 50px;
+    }
+
+    .form-2-btn {
+        margin-top: 34px;
     }
 
     .form {
@@ -462,6 +485,24 @@
     .form-input, .form-input-email {
         width: 416px;
         height: 49px;
+    }
+
+    .flowers {
+        background-image: url('/src/images/Plants.jpg');
+        background-size: auto;
+        background-repeat: no-repeat;
+        min-width: 266px;
+        min-height: 202px;
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .box {
+            background-image: url('/src/images/Plants@2x.jpg');
+        }
     }
 
 }
