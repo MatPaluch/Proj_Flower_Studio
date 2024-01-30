@@ -1,0 +1,55 @@
+:root {
+  --PINK: #e86f54;
+  --DARK-PINK: #e25b41;
+  --WHITE: #ffffff;
+  --BLACK: #000000;
+  --LIGHTGREY: #5c5c5c;
+  --INACTIVE_BROWN: rgba(232, 111, 84, 0.4);
+  --FADEDBLACK: rgba(17, 17, 17, 0.7);
+  --CORRECTCOLOR: #3cbc81;
+  --ERRORCOLOR: #e74a3b;
+  --BUTTON-HOVER: #e25b41;
+  --BUTTON-FOCUS: #fa6f5433;
+}
+
+.footer {
+  background: #000000;
+  color: #ffffff;
+}
+
+.footer-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  text-align: left;
+  padding-bottom: 18px;
+}
+
+.footer-list {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  padding-bottom: 12px;
+  word-wrap: break-word;
+  max-width: auto;
+}
+
+.icon-footer {
+  fill: none;
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+  justify-content: space-evenly;
+}
+
+.footer-container {
+  max-width: 320px;
+  flex-wrap: wrap;
+}
