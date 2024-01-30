@@ -2,7 +2,6 @@
   display: flex;
   list-style: none;
   justify-content: center;
-  justify-content: space-between;
   align-items: center;
   margin-left: 11px;
   margin-right: 145px;
@@ -45,8 +44,6 @@
 
 /**tablet**/
 @media screen and (min-width: 768px) {
-  .image-homepage {
-  }
 }
 
 /** desktop **/
