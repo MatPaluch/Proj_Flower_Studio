@@ -15,7 +15,7 @@
     margin: 0 auto;
 }
 
-.modal {
+.modal, .modal-2 {
     width: 80%;
     position: absolute;
     top: 50%;
@@ -29,12 +29,16 @@
     padding: 28px 16px 305px 16px;
 }
 
-.modal-header {
+.modal-header, .modal-2-header {
     color: #5C5C5C;
     font-size: 12px;
     font-weight: 500;
     margin-top: 16px;
     width: 240px;
+}
+
+.modal-2-header, .modal-2-title {
+    text-align: center;
 }
 
 .open-btn {
@@ -172,7 +176,7 @@
     }
 }
 
-.modal-title {
+.modal-title, .modal-2-title {
     font-size: 20px;
     font-weight: 600;
 }
@@ -232,6 +236,10 @@
     padding: 10px 0px;
     justify-content: center;
     align-items: center;
+}
+
+.form-2-btn {
+    margin: 18px 0px 28px 0px;
 }
 
 .order-btn:is(:hover) {
@@ -413,22 +421,26 @@
         margin: 60px auto 60px;
     }
 
-    .modal {
+    .modal, .modal-2 {
         max-width: 480px;
         height: 511px;
         width: 100%;
         padding: 28px 16px 305px 32px;
     }
 
-    .modal-title {
+    .modal-title, .modal-2-title {
         font-size: 32px;
         margin-top: 20px;
     }
 
-    .modal-header {
+    .modal-header, .modal-2-header {
         font-size: 16px;
         width: 416px;
         margin-top: 24px;
+    }
+
+    .modal-2-header {
+        margin-top: 16px;
     }
 
     .modal-label {
@@ -439,10 +451,14 @@
         font-size: 14px;
     }
 
-    .form-btn {
+    .form-btn, .form-2-btn {
         font-size: 18px;
         width: 416px;
         height: 50px;
+    }
+
+    .form-2-btn {
+        margin-top: 34px;
     }
 
     .form {
