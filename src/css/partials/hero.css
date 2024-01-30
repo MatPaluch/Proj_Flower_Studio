@@ -13,10 +13,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-right: 14px;
+}
+.not-bold {
 }
 .now-shop-button {
   border: 0cap;
-  background-color: ffffff;
+  background-color: white;
+  margin-left: 8px;
 }
 .title {
   position: absolute;
