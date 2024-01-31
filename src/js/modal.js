@@ -9,13 +9,9 @@
   function toggleModal() {
     refs.modal.classList.toggle("is-hidden");
   }
-  function toggleModal2() {
-    refs.modal2.classList.toggle("is-hidden");
-  }
+
   refs.openModalBtn.addEventListener("click", toggleModal);
   refs.closeModalBtn.addEventListener("click", toggleModal);
-
-  // drugie okno modalne
 
   const refs2 = {
     openModal2Btn: document.querySelector("[data-modal-open-2]"),
